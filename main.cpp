@@ -484,7 +484,7 @@ int main()
 
     Meniu<PizzaOnline<PizzaVegetarian>>* m = Meniu<PizzaOnline<PizzaVegetarian>>::get_instance();
     (*m).citire_afisare();
-
+    delete m;
 
     return 0;
 }
